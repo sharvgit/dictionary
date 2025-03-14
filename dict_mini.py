@@ -20,19 +20,19 @@ while True:
             print(f"{word} found in dictionary")
         else:
             print(f"{word} not found in dictionary")
-    # elif choice==3:
-    #     all_items=dictionary_1.items()
-    #     words_all=dict(all_items)
-    #     print(f"all elements in the dictionaty are {words_all}")
-    # elif choice==4:
-    #     example_1={}
-    #     print(dictionary_1)
-    # elif choice==5:
-    #     dictionary_1.pop("brunch")
-    #     print("one word is deleted")
-    # elif choice==6:
-    #     print("exit from the code") 
-    #     exit()   
+    elif choice==3:
+        all_items=dictionary_1.items()
+        words_all=dict(all_items)
+        print(f"all elements in the dictionaty are {words_all}")
+    elif choice==4:
+        example_1={}
+       print(dictionary_1)
+    elif choice==5:
+        dictionary_1.pop("brunch")
+        print("one word is deleted")
+    elif choice==6:
+        print("exit from the code") 
+        exit()   
             
 
     
